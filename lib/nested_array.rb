@@ -40,8 +40,8 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
- result = (matrix, [0], [2], "Tiny Ewell")
- result[0][2] = "Tiny Ewell"
+ result = matrix_update(matrix, row[0], column[2], new_value = "Tiny Ewell")
+
  matrix_update
 result[0]
 end
