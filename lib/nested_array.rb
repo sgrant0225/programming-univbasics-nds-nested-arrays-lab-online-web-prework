@@ -40,8 +40,5 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
-  matrix_update = assembled_matrix
-  matrix_update
-  matrix_update[0][2] = "Tiny Ewell"
-  
+ 
 end
