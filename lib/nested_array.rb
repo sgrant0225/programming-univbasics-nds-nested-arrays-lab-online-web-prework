@@ -33,15 +33,11 @@ def array_literal_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-  matrix_lookup = assembled_matrix
-  assembled_matrix[1][1]
+  matrix[row][column]
   
-  # Return the matrix's content at row and column
 end
 
 def matrix_update(matrix, row, column, new_value)
-  matrix_update = assembled_matrix
-  matrix_update
-  matrix_update[0][2] = "Tiny Ewell"
-  
+matrix[row][column] = new_value
+matrix
 end
