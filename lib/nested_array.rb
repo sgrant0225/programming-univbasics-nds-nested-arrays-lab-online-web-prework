@@ -41,7 +41,7 @@ end
 
 def matrix_update(matrix, row, column, new_value)
  result = matrix_update(matrix, [0], [2], "Tiny Ewell")
- matrix_update[0][2] = "Tiny Ewell"
+ result[0][2] = "Tiny Ewell"
  matrix_update
-matrix_update[0]
+result[0]
 end
