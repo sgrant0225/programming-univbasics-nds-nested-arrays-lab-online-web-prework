@@ -40,8 +40,7 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
- matrix = assembled_matrix
-matrix_update[0][2]
+matrix_update[row][column] = new_value
 matrix
 end
 # local_copy_of_matrix = assembled_matrix.dup
