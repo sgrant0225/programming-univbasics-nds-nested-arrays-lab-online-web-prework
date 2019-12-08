@@ -41,6 +41,6 @@ end
 
 def matrix_update(matrix, row, column, new_value)
  
-matrix[0][2] = "Tiffany Ewell"
-matrix
+result = matrix[0][2] = "Tiffany Ewell"
+result
 end
