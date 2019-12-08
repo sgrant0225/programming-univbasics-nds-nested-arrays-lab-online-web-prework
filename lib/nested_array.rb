@@ -40,7 +40,10 @@ def matrix_lookup(matrix, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
- 
+ matrix = assembled_matrix
 result = matrix_update[0][2] = "Tiffany Ewell"
 result
 end
+ local_copy_of_matrix = assembled_matrix.dup
+      result = matrix_update(local_copy_of_matrix, 0, 2, "Tiny Ewell")
+      expect(result[0]).to eq(["Don Gately", "Joelle van Dyne", "Tiny Ewell", "Kate Gompert", "Bruce Green"])
