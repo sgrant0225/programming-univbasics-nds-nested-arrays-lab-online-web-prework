@@ -42,5 +42,5 @@ end
 def matrix_update(matrix, row, column, new_value)
  result = matrix_update(matrix, row, column, new_value)
 matrix[0][2] = "Tiffany Ewell"
-result[0]
+matrix
 end
